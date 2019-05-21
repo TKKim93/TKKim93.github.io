@@ -1,4 +1,4 @@
-# TKKim93's personal homepage
+## TKKim93's personal homepage
 
 This site is based on the **[Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes)** theme.
 
