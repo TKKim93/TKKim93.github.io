@@ -1,6 +1,5 @@
 ---
 layout: home
-permalink: /index/
 title: Welcome to my homepage!
 description: "Taekyung Kim's Homepage"
 tags: [Jekyll, theme, responsive, blog, template]
