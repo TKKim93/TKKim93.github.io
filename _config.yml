@@ -33,8 +33,8 @@ links:
     url: /publications/
   - title: Teaching & Service
     url: /service/
-  - title: CV
-    url: //drive.google.com/open?id=1vd6QiZ707l48IJGBGWlgRNbXO4G_b2iR
+  - title: <a href="https://drive.google.com/open?id=1vd6QiZ707l48IJGBGWlgRNbXO4G_b2iR">CV</a>
+#    url: 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Zurich
