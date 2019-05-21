@@ -28,7 +28,7 @@ bing_verify:
 # For external links add external: true
 links:
   - title: About Me
-    url: /index/
+    url: /aboutme/
   - title: Publications
     url: /publications/
   - title: Teaching & Service
