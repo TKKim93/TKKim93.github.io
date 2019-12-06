@@ -8,5 +8,5 @@ image:
   feature: mountain.png
 ---
 
-<p>I am a PhD student at Computer Intelligence Lab, KAIST, advised by Prof. Changick Kim. My research interests are machine learning and computer vision, especially for <b>transfer learning</b>, <b>style transfer & image-to-image translation</b>, <b>object detection</b>, and <b>semantic segmentation</b>. I'm currently investigating on <b>stereoscopic applications</b> and <b>video analysis</b>.</p> I've researched at KAKAO AI as a student researcher
-***
+<p>I am a PhD student at Computer Intelligence Lab, KAIST, advised by Prof. Changick Kim. My research interests are machine learning and computer vision, especially for <b>transfer learning</b>, <b>style transfer & image-to-image translation</b>, <b>object detection</b>, and <b>semantic segmentation</b>. I'm currently investigating on <b>stereoscopic applications</b> and <b>video analysis</b>. I've researched at KAKAO AI as a student researcher.
+
