@@ -1,1 +1,59 @@
 
+<!--DOCTYPE-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SGTMVS</title>
+    <link rel="SHORTCUT ICON" href="favicon.ico"/>
+    <link href='css/test.css' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+<div class="pageTitle">
+    Just a Few Points are All You Need for Multi-view Stereo: Learning Multi-view Stereo with Sparse Ground-truth
+    <br>
+    <br>
+    <span class = "Authors">
+        <p style="margin-bottom: 0px; padding-bottom: 0px">
+            <a href="https://scholar.google.com/citations?user=u-9bdkwAAAAJ&hl=en" target="_blank">Taekyung Kim</a> &nbsp; &nbsp;
+            <a href="https://scholar.google.com/citations?user=kila11YAAAAJ&hl=en" target="_blank">Jaehoon Choi</a> &nbsp; &nbsp;
+            <a href="https://scholar.google.com/citations?user=wydV__gAAAAJ&hl=en" target="_blank">Seokeon Choi</a> &nbsp; &nbsp;
+            <a href="https://scholar.google.com/citations?user=MEwO0QwAAAAJ&hl=en" target="_blank">Dongki Jung</a> &nbsp; &nbsp;
+            <a href="https://scholar.google.com/citations?user=ABH_2lcAAAAJ&hl=en" target="_blank">Changick Kim</a> &nbsp; &nbsp;
+        </p>
+        <p>
+            Korea Advanced Institute of Science and Technology &nbsp; &nbsp;
+        </p>
+        <!--<a href="" target="_blank"><i>.</i></a>(Oral)-->
+  </span>
+</div>
+<br>
+<div class = "material">
+    <!--<a href="#" target="_blank">[ArXiv Preprint]</a>-->
+    <!--<a href="#" target="_blank">[Code (Github)]</a>-->
+    <!--<a href="#" target="_blank">[BibTex]</a>-->
+    <!--<a href="#" target="_blank">[Material]</a>-->
+    <!--a href="#" target="_blank">[Video]</a>-->
+    <br>
+</div>
+
+
+
+<div class = "abstractTitle">
+    Abstract
+</div>
+  While learning-based multi-view stereo (MVS) methods have recently shown successful performances in quality and efficiency, the limited data hampers the generalization to the unseen environment. A simple solution is to generate various large-scale MVS datasets, but generating dense ground-truth of the 3D structure requires a huge amount of time and monetary cost. On the other hand, if the reliance on dense ground-truth is relaxed, MVS systems will be able to generalize more smoothly to new environments. To this end, we introduce a novel sparse ground-truth based multi-view stereo (SGT-MVS) framework called SGT-MVSNet that can reliably reconstruct even with a few ground-truth 3D points. We observed that the systematic depth reasoning principle of the MVS system enables to secure least prediction capability on the non-occluded region even with sparce ground-truth while the fundamental prediction difficulties in edges and occlusions are hard to be solved in the SGT-MVS problem. Moreover, directly simultaneously applying self-supervised learning approaches to these accurate and erroneous regions without distinction can cause error propagation. Our strategy is to divide the accurate and erroneous regions and individually conquer based on our observation that probability maps can be a guide to this separation as a confidence map. Then, we propose a self-supervision loss called True Correspondence Loss to enhance the discriminability of the network, which regresses the 3D points unprojected from the corresponding pixels with the predicted depth values to meet at an identical point. Finally, we propagate these improved depth predictions toward the edges and occlusions by the Coarse-to-fine Confident Depth Propagation module. We generated sparse ground-truth of the DTU dataset for evaluation, and extensive experiments verify that our SGT-MVSNet outperformed all the MVS methods on the sparse ground-truth setting. Moreover, our method shows comparable reconstruction results compare to the state-of-the-art MVS methods.
+<p class = "abstractText">
+    
+</p>
+
+<img class = "bannerImage" src="images/intro.png", width="800"><br>
+<table width="800" align="center"><tr><td><p class = "figureTitleText">
+    Figure 1. Visualization of a dense ground-truth and our sparse ground-truth of scan14, and multi-view reconstruction results of scan13 of the DTU dataset [10] by PointMVSNet[2]trainedwithdenseground-truthsandourSGTMVSNet trained with sparse ground-truths. This sparse ground-truthgeneratedbyuniformsamplingwith 1×10−5 ratio contain around 30 to 40 3D points.
+</p></td></tr></table>
+
+
+</p></td></tr></table>
+</body>
+</html>
